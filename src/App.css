@@ -1,0 +1,38 @@
+.App{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.controlButton{
+    background-color: dodgerblue;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    padding: 12px 12px;
+    color: white;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.traffic{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.light{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.light:not(:last-child){
+    margin-bottom: 8px;
+}
